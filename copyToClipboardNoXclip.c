@@ -1,3 +1,5 @@
+/* SOURCE: https://www.uninformativ.de/blog/postings/2017-04-02/0/POSTING-en.html */
+
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
