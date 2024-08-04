@@ -10,7 +10,7 @@ enum class MODE {
 };
 
 tuple<MODE, string> scanInput(int argc, char* argv[]) {
-    const char * invalidInputMsg = "Invalid Input";
+    const string invalidInputMsg = "Invalid Input: use " + string(argv[0]) + " <-s/-f> (string/file) <string_to_copy/file_name_to_copy>";
     if (argc != 3) {
         throw invalid_argument(invalidInputMsg);
     }
